@@ -1,4 +1,4 @@
-;(function() {
+;(=>() {
   const Game = =>(canvasId) {
     const canvas = document.getElementById(canvasId);
     const screen = canvas.getContext(`2d`);
